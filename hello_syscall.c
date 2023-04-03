@@ -12,9 +12,3 @@ int main() {
     int sz=my_write(STDOUT, "hello from my_write\n", 20);
     return (sz == ERROR) ? EXIT_FAILURE : EXIT_SUCCESS;
 }
-
-
-
-
-
-
